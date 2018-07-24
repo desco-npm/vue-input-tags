@@ -93,19 +93,25 @@ export default {
 
 <style lang="scss">
     div.desco-input-tags {
-        .el-tag + .el-tag {
-            margin-left: 10px;
+        .el-tag {
+            & + .el-tag {
+                margin-left: 10px;
+            }
+
+            & + .button-new-tag,
+            & + .input-new-tag {
+                margin-left: 10px;
+            }
+
         }
 
-        .el-tag + .button-new-tag {
-            margin-left: 10px;
-        }
         .button-new-tag {
             height: 32px;
             line-height: 30px;
             padding-top: 0;
             padding-bottom: 0;
         }
+
         .input-new-tag {
             width: 90px;
             vertical-align: bottom;
