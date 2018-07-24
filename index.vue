@@ -2,7 +2,7 @@
     div.desco-input-tags
         el-tag(
             v-for="tag in tags" closable
-            :key="tag" :disable-transitions="!transition" @close="removeTag(tag)"
+            :key="tag" :disable-transitions="!transitions" @close="removeTag(tag)"
         )
             |{{tag}}
         el-input.input-new-tag(
@@ -23,7 +23,7 @@ Vue.use(ElementUI)
 export default {
     name: "DescoInputTags",
     props: {
-        data: String,
+        value: String,
         newTagTxt: { type: String, default: '+ Tag' },
         separatorCharacter: { type: String, default: ';' },
         addOnBlur: { type: Boolean, default: true },
@@ -40,7 +40,7 @@ export default {
     },
     methods: {
         fetch () {
-            this.tags = this.data ? this.data.split(this.separatorCharacter) : []
+            this.tags = this.value ? this.value.split(this.separatorCharacter) : []
         },
         showInput () {
             this.inputVisible = true
@@ -81,7 +81,7 @@ export default {
         this.fetch()
     },
     watch: {
-        data () {
+        value () {
             this.fetch()
         },
         tags () {
