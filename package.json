@@ -1,0 +1,14 @@
+{
+  "name": "@desco/vue-input-tags",
+  "version": "1.0.0",
+  "description": "VueJS Input Tags Component",
+  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "private": false,
+  "license": "ISC",
+  "dependencies": {
+    "element-ui": "^2.4.4",
+    "node-sass": "^4.9.2",
+    "pug": "^2.0.3",
+    "sass-loader": "^7.0.3"
+  }
+}
