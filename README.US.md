@@ -112,6 +112,8 @@ import vueInputTags from "@desco/vue-input-tags";
 | alow-repeat         | Boolean | No        | false    | Repeat tags allowed                                                 |
 | transitions         | Boolean | No        | true     | Whether to have animations                                          |
 
+---
+
 ## Author
 
 <table>
