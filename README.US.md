@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,10 +30,10 @@
 
 ## 📋 Table of Contents
 
-* [🛠️ Technology](#Technology)
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [🛠️ Technology](#Technology)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -41,10 +41,10 @@
 
 The following technologies are used:
 
-* [VueJs](https://vuejs.org/)
-* [PUG/JADE](https://pugjs.org)
-* [SCSS/SASS](https://sass-lang.com)
-* [Element](https://element.eleme.io)
+- [VueJs](https://vuejs.org/)
+- [PUG/JADE](https://pugjs.org)
+- [SCSS/SASS](https://sass-lang.com)
+- [Element](https://element.eleme.io)
 
 ---
 
@@ -65,7 +65,7 @@ npm install --save @desco/vue-input-tags
 ## 📦 Import
 
 ```js
-import vueInputTags from '@desco/vue-input-tags'
+import vueInputTags from "@desco/vue-input-tags";
 ```
 
 ---
@@ -102,16 +102,15 @@ import vueInputTags from '@desco/vue-input-tags'
 
 ### Parameters
 
-| Name | Type | Mandatory | Standard | Description |
-| --- | --- | --- | --- | --- |
-| value | String | Yes | - | String that contains / will contain the tags |
-| new-tag-txt | String | No | + Tag | Text to be displayed to add a new tag |
-| separator-character | String | No | ; | Character that will be used to separate the tags within the string |
-| max | Number | Yes | - | Limit of allowed tags |
-add-on-blur | Boolean | No | true | Whether to add the tag typed when taking the focus out of the field |
-alow-repeat | Boolean | No | false | Repeat tags allowed |
-transitions | Boolean | No | true | Whether to have animations |
-
+| Name                | Type    | Mandatory | Standard | Description                                                         |
+| ------------------- | ------- | --------- | -------- | ------------------------------------------------------------------- |
+| value               | String  | Yes       | -        | String that contains / will contain the tags                        |
+| new-tag-txt         | String  | No        | + Tag    | Text to be displayed to add a new tag                               |
+| separator-character | String  | No        | ;        | Character that will be used to separate the tags within the string  |
+| max                 | Number  | Yes       | -        | Limit of allowed tags                                               |
+| add-on-blur         | Boolean | No        | true     | Whether to add the tag typed when taking the focus out of the field |
+| alow-repeat         | Boolean | No        | false    | Repeat tags allowed                                                 |
+| transitions         | Boolean | No        | true     | Whether to have animations                                          |
 
 ## Author
 
@@ -132,10 +131,10 @@ transitions | Boolean | No | true | Whether to have animations |
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">

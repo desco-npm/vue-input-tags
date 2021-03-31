@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.US.md">
-    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=🇺🇸 Read in American English&color=red&style=for-the-badge" />
+    <img alt="Read in American English" src="https://img.shields.io/static/v1?label=&message=Read+in+American+English&color=red&style=for-the-badge" />
   </a>
 </div>
 
@@ -12,8 +12,8 @@
       Componente VueJS para entrada de Tags.
       <br /><br />
       <div align="center">
-        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licença&message=MIT&color=green&style=for-the-badge">
-        <img alt="Versão 1.0.3" src="https://img.shields.io/static/v1?label=Versão&message=1.0.3&color=blue&style=for-the-badge">
+        <img alt="Licença MIT" src="https://img.shields.io/static/v1?label=Licen%C3%A7a&message=MIT&color=green&style=for-the-badge">
+        <img alt="Versão 1.0.3" src="https://img.shields.io/static/v1?label=Vers%C3%A3o&message=1.0.3&color=blue&style=for-the-badge">
       </div>
       <h4 align="center"> 
         🚀 Pronto para uso 🚀
@@ -30,10 +30,10 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
-* [⚙️ Instalação](#Instalação)
-* [📦 Importação](#Importação)
-* [📚 Como Usar](#Como-Usar)
+- [🛠️ Tecnologias](#Tecnologias)
+- [⚙️ Instalação](#Instalação)
+- [📦 Importação](#Importação)
+- [📚 Como Usar](#Como-Usar)
 
 ---
 
@@ -41,10 +41,10 @@
 
 As seguintes tecnologias são utilizadas:
 
-* [VueJs](https://vuejs.org/)
-* [PUG/JADE](https://pugjs.org)
-* [SCSS/SASS](https://sass-lang.com)
-* [Element](https://element.eleme.io)
+- [VueJs](https://vuejs.org/)
+- [PUG/JADE](https://pugjs.org)
+- [SCSS/SASS](https://sass-lang.com)
+- [Element](https://element.eleme.io)
 
 ---
 
@@ -65,7 +65,7 @@ npm install --save @desco/vue-input-tags
 ## 📦 Importação
 
 ```js
-import vueInputTags from '@desco/vue-input-tags'
+import vueInputTags from "@desco/vue-input-tags";
 ```
 
 ---
@@ -104,15 +104,15 @@ import vueInputTags from '@desco/vue-input-tags'
 
 ### Parâmetros
 
-| Nome | Tipo | Obrigatório | Padrão | Descrição |
-|---|---|---|---|---|
-| value | String | Sim | - | String que contém/conterá as tags |
-| new-tag-txt | String | Não | + Tag | Texto a ser exibido para adicionar nova tag |
-| separator-character | String | Não | ; | Caracter que será usado para separar as tags dentro da string|
-| max | Number | Sim | - | Limite de tags permitidas |
-add-on-blur | Boolean | Não | true | Se deve adicionar a tag digitada ao tirar o foco do campo |
-alow-repeat | Boolean | Não | false | Se permite repetir tags |
-transitions | Boolean | Não | true | Se deve ter animações |
+| Nome                | Tipo    | Obrigatório | Padrão | Descrição                                                     |
+| ------------------- | ------- | ----------- | ------ | ------------------------------------------------------------- |
+| value               | String  | Sim         | -      | String que contém/conterá as tags                             |
+| new-tag-txt         | String  | Não         | + Tag  | Texto a ser exibido para adicionar nova tag                   |
+| separator-character | String  | Não         | ;      | Caracter que será usado para separar as tags dentro da string |
+| max                 | Number  | Sim         | -      | Limite de tags permitidas                                     |
+| add-on-blur         | Boolean | Não         | true   | Se deve adicionar a tag digitada ao tirar o foco do campo     |
+| alow-repeat         | Boolean | Não         | false  | Se permite repetir tags                                       |
+| transitions         | Boolean | Não         | true   | Se deve ter animações                                         |
 
 ---
 
@@ -135,10 +135,10 @@ transitions | Boolean | Não | true | Se deve ter animações |
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Geral @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Geral&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
